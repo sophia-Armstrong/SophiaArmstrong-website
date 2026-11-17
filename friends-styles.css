@@ -1,0 +1,167 @@
+body {
+    background-color: #b8e1ef;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+#container {
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    background-color: #def0fc;
+    border-right: solid 2px #19566e;
+    border-left: solid 2px #19566e;
+    border-bottom: solid 2px #19566e;
+    border-top: solid 40px #19566e;
+}
+
+/*TEXT TAG STYLES*/
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 76px;
+    color: #19566e;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #19566e;
+    margin-top: 0px;
+    font-size: 26px;
+}
+h3 {
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 26px;
+    color: #19566e;
+    font-weight: normal;
+}
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #19566e;
+    margin-top: 0px;
+    font-size: 26px;
+}
+p {
+    font-size: 16px;
+    color: #19566e;
+    padding: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+/*MENU SECTION*/
+#menu {
+    width: 170px;
+    float: left;
+}
+#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+}
+#menu li {
+    background-color: #b8e1ef;
+    border: 1px solid #264b64;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 4px;
+}
+#menua:link, #menu a:visited {
+    color: #013346;
+    font-weight: bold;
+    text-decoration: none;
+}
+#menu a:hover, #menu a:active {
+    color: #19566e;
+    text-decoration: underline;
+}
+/*MAIN SECTION*/
+#main {
+    margin-left: 190px;
+}
+#main h3 {
+    color: #19566e;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-size: 24px;
+}
+#main p {
+    margin-left: 100px;
+    font-size: 15px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+#main a:link, #main a:visited {
+    color: #013346;
+    text-decoration: dotted;
+
+}
+#main a:hover, #main a:active {
+    color: #b8e1ef;
+
+}
+/* TOP ROW OF THREE PHOTOS */
+.top-photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.top-photos img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+#topimages p {
+    font-family: Arial, Helvetica, sans-serif ;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+/* BOTTOM ROW OF THREE PHOTOS*/
+.bottom-photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bottom-photos img {
+    width: 190px;
+    height: 180px;
+    
+}
+#bottomimages p {
+    font-family: Arial, Helvetica, sans-serif ;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+/*LINK STYLES*/
+a:link, a:visited {
+    color: #013346;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #19566e;
+    text-decoration: underline;
+}
+
+#verybottom p {
+    margin-left: 100px;
+    font-size: 15px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
